@@ -97,7 +97,6 @@ This series is the foundation for a full-scale study I am now working on:
 - Zhu, M., McKenna, F., & Scott, M. H. (2018). OpenSeesPy: Python library for the OpenSees finite element framework. *SoftwareX*, 7, 6–11.
 - Mander, J. B., Priestley, M. J. N., & Park, R. (1988). Theoretical stress-strain model for confined concrete. *Journal of Structural Engineering*, 114(8), 1804–1826.
 - OpenSeesPy documentation: https://openseespydoc.readthedocs.io
-- [Add the tutorial source(s) you followed, e.g. course, YouTube series or book. Credit them honestly.]
 
 ---
 
