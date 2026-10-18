@@ -11,20 +11,20 @@ A self-directed series I worked through to learn **nonlinear structural analysis
 )(<img width="250" height="150" alt="output" src="https://github.com/user-attachments/assets/e26e8381-2621-490a-9852-afa1e91062f9" />
 )
 
----
+----
 
 ## Contents
 
-| # | Topic | Analysis type | Key OpenSees features | Verification check |
-|---|-------|---------------|-----------------------|--------------------|
-| 01 | [Elastic truss](01-elastic-truss/) | Linear static | `truss`, `Elastic` material | Member forces vs. method of joints |
-| 02 | [Elastic portal frame](02-elastic-portal-frame/) | Gravity + eigenvalue | `elasticBeamColumn`, `eigen` | Periods vs. ETABS model |
-| 03 | [RC fiber section](03-rc-fiber-section/) | Section definition | `section Fiber`, `Concrete01/02`, `Steel02` | Confined vs. unconfined concrete properties (Mander model) |
-| 04 | [Moment–curvature](04-moment-curvature/) | Section analysis | Zero-length section, displacement control | Yield moment vs. hand calculation |
-| 05 | [Cantilever pushover](05-cantilever-pushover/) | Nonlinear static | `forceBeamColumn`, P-Delta, `DisplacementControl` | Initial stiffness vs. 3EI/L³ |
-| 06 | [Cantilever cyclic pushover](06-cantilever-cyclic-pushover/) | Reversed cyclic | Cyclic displacement protocol | Envelope vs. monotonic pushover |
-| 07 | [Cantilever time history](07-cantilever-time-history/) | Nonlinear dynamic | `UniformExcitation`, Rayleigh damping, `Newmark` | Elastic response vs. response spectrum |
-| 08 | [Nonlinear RC portal frame](08-nonlinear-rc-portal-frame/) | Gravity → pushover | Fiber frame, sequential loading | Base shear capacity vs. plastic mechanism |
+| # | Topic | Analysis type | Key OpenSees features | 
+|---|-------|---------------|-----------------------|
+| 01 | [Elastic truss](01-elastic-truss/) | Linear static | `truss`, `Elastic` material |
+| 02 | [Elastic portal frame](02-elastic-portal-frame/) | Gravity + eigenvalue | `elasticBeamColumn`, `eigen` | 
+| 03 | [RC fiber section](03-rc-fiber-section/) | Section definition | `section Fiber`, `Concrete01/02`, `Steel02` | 
+| 04 | [Moment–curvature](04-moment-curvature/) | Section analysis | Zero-length section, displacement control | 
+| 05 | [Cantilever pushover](05-cantilever-pushover/) | Nonlinear static | `forceBeamColumn`, P-Delta, `DisplacementControl` | 
+| 06 | [Cantilever cyclic pushover](06-cantilever-cyclic-pushover/) | Reversed cyclic | Cyclic displacement protocol | 
+| 07 | [Cantilever time history](07-cantilever-time-history/) | Nonlinear dynamic | `UniformExcitation`, Rayleigh damping, `Newmark` |
+| 08 | [Nonlinear RC portal frame](08-nonlinear-rc-portal-frame/) | Gravity → pushover | Fiber frame, sequential loading | 
 
 ---
 
@@ -45,10 +45,9 @@ A self-directed series I worked through to learn **nonlinear structural analysis
 openseespy-learning-series/
 ├── README.md
 ├── requirements.txt
-├── figures/                     # summary figures used in this README
+├── figures/                    
 ├── 01-elastic-truss/
-│   ├── truss.py
-│   ├── README.md                # what, key result, verification
+│   ├── truss.py               # what, key result, verification
 │   └── results/
 ├── 02-elastic-portal-frame/     # gravity + eigenvalue analysis
 ├── 03-rc-fiber-section/
@@ -100,9 +99,5 @@ This series is the foundation for a full-scale study I am now working on:
 
 ---
 
-## Contact
-
-**Rajesh Bhandari**
-[078bce120.rajesh@pcampus.edu.np] · [linkdin](https://www.linkedin.com/in/rajesh-bhandari-6116b1302/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUYvTmm3kR7KI17WHsqDeJQ%3D%3D)] 
 
 *Open to graduate research opportunities in structural and earthquake engineering (Fall 2027).*
