@@ -15,18 +15,14 @@ A self-directed series I worked through to learn **nonlinear structural analysis
 
 ## Contents
 
-| # | Topic | Analysis type | Key OpenSees features | 
+| # | Topic | Analysis type | Key OpenSees features |
 |---|-------|---------------|-----------------------|
-| 01 | [Elastic truss](01-elastic-truss/) | Linear static | `truss`, `Elastic` material |
-| 02 | [Elastic portal frame](02-elastic-portal-frame/) | Gravity + eigenvalue | `elasticBeamColumn`, `eigen` | 
-| 03 | [RC fiber section](03-rc-fiber-section/) | Section definition | `section Fiber`, `Concrete01/02`, `Steel02` | 
-| 04 | [Moment–curvature](04-moment-curvature/) | Section analysis | Zero-length section, displacement control | 
-| 05 | [Cantilever pushover](05-cantilever-pushover/) | Nonlinear static | `forceBeamColumn`, P-Delta, `DisplacementControl` | 
-| 06 | [Cantilever cyclic pushover](06-cantilever-cyclic-pushover/) | Reversed cyclic | Cyclic displacement protocol | 
-| 07 | [Cantilever time history](07-cantilever-time-history/) | Nonlinear dynamic | `UniformExcitation`, Rayleigh damping, `Newmark` |
-| 08 | [Nonlinear RC portal frame](08-nonlinear-rc-portal-frame/) | Gravity → pushover | Fiber frame, sequential loading | 
-
----
+| 01 | [Basic Elastic Truss Analysis](01.Basic%20Elastic%20Truss%20Analysis/) | Linear static | `truss`, `Elastic` material |
+| 02 | [Elastic Portal Frame Analysis](02.Elastic%20Portal%20Frame%20Analysis/) | Gravity + eigenvalue | `elasticBeamColumn`, `eigen` |
+| 03 | [Fiber Section of RCC](03.Fiber%20Section%20of%20RCC/) | Section definition | `section Fiber`, `Concrete01/02`, `Steel02` |
+| 04 | [Nonlinear Cantilever Column Pushover Analysis](04.Nonlinear%20Cantilever%20Column%20Pushover%20Analysis/) | Nonlinear static | `forceBeamColumn`, P-Delta, `DisplacementControl` |
+| 05 | [Nonlinear Cantilever Column Reverse Cyclic Pushover Analysis](05.Nonlinear%20Cantilever%20Column%20Reverse%20Cyclic%20Pushover%20Analysis/) | Reversed cyclic | Cyclic displacement protocol |
+| 06 | [Nonlinear Cantilever Column Time History Analysis](06.Nonlinear%20Cantilever%20Column%20Time%20History%20Analysis/) | Nonlinear dynamic | `UniformExcitation`, Rayleigh damping, `Newmark` |
 
 ## What I learned
 
