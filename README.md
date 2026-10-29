@@ -41,18 +41,16 @@ A self-directed series I worked through to learn **nonlinear structural analysis
 openseespy-learning-series/
 ├── README.md
 ├── requirements.txt
-├── figures/                    
-├── 01-elastic-truss/
-│   ├── truss.py               # what, key result, verification
+├── figures/
+├── 01.Basic Elastic Truss Analysis/
+│   ├── truss.py                         # what, key result, verification
 │   └── results/
-├── 02-elastic-portal-frame/     # gravity + eigenvalue analysis
-├── 03-rc-fiber-section/
-├── 04-moment-curvature/
-├── 05-cantilever-pushover/
-├── 06-cantilever-cyclic-pushover/
-├── 07-cantilever-time-history/
-│   └── ground_motions/          # record source cited in folder README
-└── 08-nonlinear-rc-portal-frame/
+├── 02.Elastic Portal Frame Analysis/                       # gravity + eigenvalue analysis
+├── 03.Fiber Section of RCC/                                # fiber section definition
+├── 04.Nonlinear Cantilever Column Pushover Analysis/       # nonlinear static pushover
+├── 05.Nonlinear Cantilever Column Reverse Cyclic Pushover Analysis/   # reversed cyclic loading
+└── 06.Nonlinear Cantilever Column Time History Analysis/   # nonlinear dynamic analysis
+    └── ground_motions/                  # record source cited in folder README
 ```
 
 Each folder contains a script, its output plots, and a short README covering:
